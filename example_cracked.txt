@@ -1,0 +1,8 @@
+# this is what the file passwords.txt you turn in should look like
+# the blank spaces are passwords that you haven't found
+
+90e6855c0045d795d27dc859cc1d7ce6dd01d7dd9e35349b74ce83854c5ebee7:i
+594fd25c39bb62b7e31e8b8d8ed112c436791b4d40462042e3b9f3d52f0d93c8:xyz
+f09416dd2cae8f969a4b28145df0ceb27f5ce2ff37e8a4cbd7548e26ebff57bc:
+35d68642d82ad93e754302dc6e2acc8d2ac2bae6f66c37c4a48d24847eb889e8:
+7da33b97d79b7dd69aed335e44d8c851409e5b607fe60bf56fe7e01073a691e5:hello
