@@ -63,7 +63,7 @@ void crack::printStats() {
 void crack::findLastHash() {
     std::vector<std::thread> lastHashThreads;
 
-    for (int x = 0; x < 8; x++) {
+    for (int x = 1; x <= 8; x++) {
         lastHashThreads.emplace_back(std::thread(&crack::lastHashSleuth, this, x));
     }
 
@@ -224,4 +224,8 @@ void crack::lastHashSleuth(int filePart) {
     }
 
     file1.close();
+
+    std::stringstream s;
+    s << "Thread " << filePart << " finished" << std::endl;
+    std::cout << s.str() << std::flush;
 }
